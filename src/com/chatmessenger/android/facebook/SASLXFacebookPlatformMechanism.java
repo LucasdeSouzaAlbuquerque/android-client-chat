@@ -1,4 +1,4 @@
-package com.chatmessenger.android;
+package com.chatmessenger.android.facebook;
 
 
 

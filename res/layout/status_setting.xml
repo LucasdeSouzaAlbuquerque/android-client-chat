@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RadioGroup android:id="@+id/status_setting_radio_group"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<RadioButton android:id="@+id/status_setting_online_radio"
+			android:layout_width="fill_parent" android:text="@string/staus_online"
+			android:layout_height="wrap_content" />
+		<RadioButton android:id="@+id/status_setting_invisible_radio"
+			android:layout_width="fill_parent" android:text="@string/staus_invisible"
+			android:layout_height="wrap_content" />
+		<RadioButton android:id="@+id/status_setting_custom_radio"
+			android:layout_width="fill_parent" android:text="@string/staus_custom"
+			android:layout_height="wrap_content" />
+	</RadioGroup>
+	<EditText android:id="@+id/status_setting_custom_edit"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@android:drawable/editbox_background"
+		android:inputType="text" />
+</LinearLayout>

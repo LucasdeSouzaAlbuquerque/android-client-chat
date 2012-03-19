@@ -10,6 +10,10 @@ import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Presence;
 
+import com.chatmessenger.android.R;
+import com.chatmessenger.android.R.id;
+import com.chatmessenger.android.R.layout;
+
 /**
  * Gather the xmpp settings and create an XMPPConnection
  */
