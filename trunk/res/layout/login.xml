@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:text="@string/login_id" />
+	<EditText android:id="@+id/loginIdEdit" android:layout_width="fill_parent"
+		android:inputType="text" android:layout_height="wrap_content"
+		android:background="@android:drawable/editbox_background" />
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:text="@string/login_pass" />
+	<EditText android:id="@+id/loginPassEdit"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@android:drawable/editbox_background"
+		android:inputType="textPassword" />
+	<CheckBox android:id="@+id/loginRemberIdCheck"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/login_remember_id" />
+	<CheckBox android:id="@+id/loginHiddenCheck"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/login_hidden" />
+	<Button android:text="@string/login_login" android:id="@+id/loginButton"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <CheckBox android:id="@+id/loginAutoCheck"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/login_auto" android:visibility="invisible" />
+</LinearLayout>

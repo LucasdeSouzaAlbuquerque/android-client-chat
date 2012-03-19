@@ -1,5 +1,8 @@
 package com.chatmessenger.android;
 
+import com.chatmessenger.android.R;
+import com.chatmessenger.android.R.layout;
+
 import android.app.Activity;
 import android.os.Bundle;
 

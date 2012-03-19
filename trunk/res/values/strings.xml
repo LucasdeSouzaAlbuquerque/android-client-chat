@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, HomeActivity!</string>
     <string name="app_name">ChatMessenger</string>
-
+	<string name="hello">Hello World, HelloAndroid!</string>
+    <string name="send">send</string>
+    <string name="view">view</string>
+    <string name="exit">exit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">cance.</string>
+    <string name="change">apply</string>
+    <string name="logout">logout</string>
+    <string name="login">login</string>
+    <string name="status">status</string>
+    <string name="not_login">not logged in. please select "login" from menu.</string>
+    
+    <string name="login_pass">Password</string>
+    <string name="login_id">Yahoo! ID</string>
+    <string name="login_remember_id">Remember ID and Pass</string>
+    <string name="login_auto">Auto login</string>
+    <string name="login_hidden">Invisible</string>
+    <string name="login_login">login</string>
+    <string name="login_empty_id">ID or Password is empty.</string>
+    <string name="login_failed">Login failed.</string>
+    <string name="buddy_list_show_offline">Show offline buddies</string>
+    <string name="buddy_list_last_access"></string>
+    <string name="buddy_list_online">online</string>
+    <string name="buddy_list_offline">offline</string>
+    <string name="buddy_list_dialog_change_status">Change status</string>
+    <string name="msg_list_newmessage">: </string>
+    <string name="sysmsg_buddy_logoff"> logout</string>
+    <string name="sysmsg_buddy_login"> login</string>
+    <string name="sysmsg_disconnect">: Disconnected</string>
+    <string name="sysmsg_now_login">Now login...</string>
+    <string name="staus_soon_back">soon back</string>
+    <string name="staus_bussy">soon back</string>
+    <string name="staus_away">away</string>
+    <string name="staus_invisible">Hide status</string>
+    <string name="staus_online">Online</string>
+    <string name="staus_custom">Custom status</string>
+    <string name="notify_message_received"> message received.</string>
 </resources>

@@ -17,6 +17,10 @@ import org.jivesoftware.smack.packet.Message;
 import org.jivesoftware.smack.packet.Packet;
 import org.jivesoftware.smack.util.StringUtils;
 
+import com.chatmessenger.android.R;
+import com.chatmessenger.android.R.id;
+import com.chatmessenger.android.R.layout;
+
 import java.util.ArrayList;
 
 public class XMPPClient extends Activity {
