@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="@string/view" android:icon="@android:drawable/ic_menu_view">
+		<menu>
+		  <item android:id="@+id/buddy_list_menu_show_offline" android:title="@string/buddy_list_show_offline" android:checkable="true" />
+		</menu>
+	</item>
+    <item android:id="@+id/buddy_list_menu_change_status" android:title="@string/status" android:icon="@android:drawable/ic_menu_edit" />
+    <item android:id="@+id/buddy_list_menu_logout" android:title="@string/logout" android:icon="@android:drawable/ic_menu_directions" />
+    <item android:id="@+id/buddy_list_menu_exit" android:title="@string/exit" android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+</menu>
