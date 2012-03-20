@@ -103,8 +103,13 @@ public class LoginActivity extends Activity implements Constants {
 			public void onClick(View v) {
 				EditText loginIdEdit = (EditText) findViewById(R.id.loginIdEdit);
 				EditText loginPassEdit = (EditText) findViewById(R.id.loginPassEdit);
-
+				
+				
 				String loginId = loginIdEdit.getText().toString().trim();
+				if(loginId.contains("@")){
+					String [] login = loginId.split("@");
+					loginId = login[0];
+				}
 				String loginPass = loginPassEdit.getText().toString().trim();
 
 				if (loginId == null || "".equals(loginId)
