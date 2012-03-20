@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="top" android:background="#FFFFFF">
+	
+	<ImageView android:layout_height="85dp"
+		android:layout_width="180dp" android:clickable="false"
+		android:id="@+id/imageHeader" android:src="@drawable/gtalk_logo"
+		android:scaleType="fitXY"></ImageView>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:gravity="center">
+		
+		<EditText android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="15dp"
+			android:gravity="center_vertical|left" android:id="@+id/txfUser" android:editable="true"
+			android:layout_marginLeft="5dp" android:layout_marginRight="5dp" />
+
+		<EditText android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="15dp"
+			android:gravity="center_vertical|left" android:id="@+id/txfPassword"
+			android:editable="true" android:password="true"
+			android:layout_marginLeft="5dp" android:layout_marginRight="5dp" />
+
+		<Button android:id="@+id/btnLogin" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:layout_gravity="center_horizontal" android:text="@string/login" />
+	</LinearLayout>
+</LinearLayout>

@@ -2,6 +2,7 @@ package com.chatmessenger.android.view;
 
 import com.chatmessenger.android.R;
 import com.chatmessenger.android.XMPPClient;
+import com.chatmessenger.android.view.gmail.LoginActivity;
 import com.chatmessenger.android.view.ym.BuddyListActivity;
 
 import android.app.Activity;
@@ -30,7 +31,7 @@ public class HomeActivity extends Activity {
 	}
 
 	public void onClickGtalk(View v){
-		Intent intent = new Intent(HomeActivity.this, XMPPClient.class);
+		Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
 		startActivity(intent);
 	}
 }

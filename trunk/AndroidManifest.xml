@@ -17,8 +17,12 @@
         </activity>
         <activity android:name=".XMPPClient"/>
         <activity android:name=".view.ym.BuddyListActivity"/>
+        <activity android:name=".view.ym.MessageListActivity"/>
         <activity android:name=".view.ym.LoginActivity" />
-		<activity android:name=".view.ym.MessageListActivity"/>
+        <activity android:name=".view.gmail.LoginActivity"/>
+		<activity android:name=".view.gmail.ContactListActivity" />
+        <activity android:name=".view.gmail.ChatActivity" />
+        <service android:enabled="true" android:name=".view.gmail.NChatService" />
 		<service android:enabled="true" android:name=".view.ym.YmsgService" />
     </application>
 	
